@@ -20,12 +20,16 @@ Live at **[dtc-ingenieria.com](https://dtc-ingenieria.com)**.
 
 ```mermaid
 flowchart TD
-    H[index.html<br/>Home] --> I[industrial.html]
-    H --> F[infraestructura.html]
-    H --> S[instalaciones-especiales.html]
-    H --> M[mantenimiento.html]
-    H --> R[retail.html]
-    I & F & S & M & R --> MAP[Leaflet map<br/>project locations + photos]
+    H["index.html: Home"] --> I["industrial.html"]
+    H --> F["infraestructura.html"]
+    H --> S["instalaciones-especiales.html"]
+    H --> M["mantenimiento.html"]
+    H --> R["retail.html"]
+    I --> MAP["Leaflet map: project locations and photos"]
+    F --> MAP
+    S --> MAP
+    M --> MAP
+    R --> MAP
 ```
 
 ## Featured clients
